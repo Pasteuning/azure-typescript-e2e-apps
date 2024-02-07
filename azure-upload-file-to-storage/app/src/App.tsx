@@ -89,7 +89,7 @@ function App() {
         if (
           fileArrayBuffer === null ||
           fileArrayBuffer.byteLength < 1 ||
-          fileArrayBuffer.byteLength > 256000
+          fileArrayBuffer.byteLength > 6000000
         )
           return;
 
